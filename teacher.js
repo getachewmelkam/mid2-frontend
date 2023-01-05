@@ -27,10 +27,7 @@ const fetchdata=()=>{
       <Text>
       {d.name}
       </Text>
-      <Text> 
-      {d.grade}
-
-      </Text>
+    
       <Button onPress={()=>deletedata(d.id)} title='delete'></Button>
     </View>
    } )
